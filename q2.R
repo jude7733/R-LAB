@@ -1,0 +1,6 @@
+a<-c(1,4,7,9)
+b<-c(2,5,6,8)
+print(c("sum of vector a=",sum(a)))
+print(c("sum of vectors a and b =",sum(a,b)))
+print(c("mean of vector =",mean(a)))
+print(c("product of vector =",prod(a)))

@@ -1,0 +1,27 @@
+read.csv(file, header = TRUE, sep = ",")
+
+
+
+library(readxl)
+read_excel(PATH, sheet = NULL, range= NULL, col_names = TRUE)
+
+
+
+read.table(file,              # TXT data file indicated as string or full path to the file
+           header = FALSE,    # Whether to display the header (TRUE) or not (FALSE)
+           sep = "",          # Separator of the columns of the file
+           dec = ".")         # Character used to separate decimals of the numbers in the file
+           
+
+
+# Load the package required to read XML files.
+library("XML")
+
+# Also load the other required package.
+library("methods")
+
+# Give the input file name to the function.
+result <- xmlParse(file = "input.xml")
+
+# Print the result.
+print(result)
